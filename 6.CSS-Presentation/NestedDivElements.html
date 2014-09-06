@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Div Elements</title>
+    <link href="NestedDivElements.css" rel="stylesheet" />
+    <script>
+        function css() {
+            
+            var width=0;
+            var height=0;
+
+            for (var i = 60; i > 1; i--) {
+                var marginLeft = 100 + i;
+                width = 2 + (i * 4);
+                height = 2 + (i * 3);
+                var div = createDiv(width, height, i);
+                document.body.appendChild(div);
+
+            }
+        }
+
+        function createDiv(w, h, ml) {
+
+            var someID = document.createElement('div');
+            someID.id = "someID";
+
+            // this properties are work//
+            someID.style.zIndex = '3';
+            someID.style.color = 'black';
+            someID.style.background = '#FF9C00';
+            someID.style.width = w + 'px';
+            someID.style.height = h + 'px';
+            someID.style.border = '1px solid black';
+            someID.style.borderRadius = '60%';
+            someID.style.position = 'absolute';
+            someID.style.marginTop = getTopPosition(400, w, ml) + "px";
+            someID.style.marginLeft = getLeftPosition(0, h, ml) + "px";
+            //someID.style.display = "inline-block";
+
+            return someID;
+
+        }
+
+
+        function getTopPosition(maxW, curW,f)
+        {
+            return (maxW - curW) / 2;
+        }
+
+        function getLeftPosition(maxW, curW, f) {
+            return ((maxW + curW) / 2) * (f*0.1);
+        }
+
+    </script>
+</head>
+<body>
+    
+    <input type="submit" name="cssandcreate" id="cssandcreate" value="Click here" onclick="css();" />
+    <div id="newDiv"></div>
+</body>
+</html>

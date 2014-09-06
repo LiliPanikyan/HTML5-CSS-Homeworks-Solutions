@@ -1,0 +1,126 @@
+﻿body {
+   font-family: 'PT Sans', Tahoma, sans-serif;
+    font-size:14px;
+   margin:0px;
+   padding:0px;
+}
+#newsPage1{
+    width:100%;
+    height:1048px;
+    position:absolute;
+    background:#eee;
+    box-sizing:border-box;
+    text-overflow:ellipsis;
+    word-wrap:break-word;
+}
+h2{
+    color: #234465;
+    font-size:24px;
+    
+}
+.title{
+    width:200px;
+    height:50px;
+    color:#234465;
+    position:absolute;
+    margin-left:100px;
+    margin-top:30px;
+}
+#firstColl, #secondColl, #thirdColl{
+    width:300px;
+    height:380px;
+    display:table-cell;
+    float:left;
+    padding:10px;
+    margin-left:100px;
+    margin-top:120px;
+    background:#FFFFFF;
+    box-sizing:border-box;
+    text-overflow:ellipsis;
+    word-wrap:break-word;
+     
+}
+.article-title{
+    width:290px;
+    height:55px;
+}
+h4{
+    color:#234465;
+    text-transform:uppercase;
+}
+
+.datepubl{
+    float:right;
+    height:16px;
+    width:100px;
+    
+}
+.publBy{
+    height:20px;
+    width:280px;
+    margin-top:20px;
+    color:#5A5A5A;
+}
+.item{
+    width:280px;
+    height:100px;
+    margin-top:10px;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:#5A5A5A;
+}
+a:hover{
+    text-decoration:underline;
+}
+.newsDetails{
+    width:290px;
+    height:50px;
+    margin-top:10px;
+    text-align:left;
+}
+.tags{
+    font-size:12px;
+    margin-top:10px;
+    width:290px;
+}
+
+.paginBar{
+width:250px;
+display: inline-block;
+padding-left: 0;
+margin: 50px 0 0 100px;
+border-radius: 4px;
+}
+.paginList li{
+    list-style-type:none;
+    display:inline-block;
+}
+.btn_active{
+background: #FF9C00;
+border: 1px solid #FFFFFF  ;
+color: #FFFFFF;
+font-size:large;
+padding:10px;
+margin:0px;
+
+}
+.btn_active:hover{
+    text-decoration:none;
+}
+
+.btn{
+background-color: #428bca;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+font-size:14px;
+padding:10px;
+margin-left:-5px;
+text-decoration:none;
+}
+.btn:hover{
+    text-decoration:none;
+    background:#4CA0DB;
+}
+

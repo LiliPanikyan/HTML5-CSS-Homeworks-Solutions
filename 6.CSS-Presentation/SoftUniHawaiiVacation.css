@@ -1,0 +1,64 @@
+﻿.conteiner {
+    width: 900px;
+    height: 600px;
+    background-image: url('/resources/HawaiiBackground.png');
+    position:absolute;
+}
+.skyPart{
+    height: 400px;
+    width: 900px;
+    background:radial-gradient(closest-side circle at 150px 150px, yellow, white, blue);
+
+
+}
+@font-face {
+  font-family: "Animated";
+  src: url('/resources/Animated.ttf') format("truetype");
+}
+h1 { 
+    font-family: "Animated";
+    color:#FDBC21;
+    float:right;
+    font-size:50px;
+
+}
+#vladoG{
+    width:265px;
+    height:350px;
+    position:absolute;
+    margin-top:200px;
+    margin-left:45px;
+}
+#petia{
+    width:265px;
+    height:350px;
+    position:absolute;
+    margin-top:160px;
+    margin-left:195px;
+}
+#tedi{
+    width:156px;
+    height:220px;
+    position:absolute;
+    margin-top:340px;
+    margin-left:265px;
+}
+#nakov{
+    width:215px;
+    height:400px;
+    position:absolute;
+    margin-top:130px;
+    margin-left:415px;
+}
+#alex{
+    width:238px;
+    height:375px;
+    position:absolute;
+    margin-top:175px;
+    margin-left:495px;
+}
+#vladoK{
+    
+    margin-top:205px;
+    margin-left:675px;
+}

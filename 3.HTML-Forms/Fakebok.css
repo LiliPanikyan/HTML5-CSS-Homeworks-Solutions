@@ -1,0 +1,58 @@
+﻿ .box {
+            background-color: #234465;
+            width:860px;
+            height:auto;
+            color: white;
+            font-family: 'Bookman Old Style';
+        }
+        header{
+            text-align:center;
+        }
+        .leftPart, .rightPart {
+            display: table-cell;
+            position: relative;
+            color: white;
+            font-family: 'Bookman Old Style';   
+        }      
+        ul {
+            list-style-type: none;
+            font-family: 'Bookman Old Style';
+        }
+        ul li{
+            height:35px;
+        }
+           
+        .numsData{
+
+            width:55px;
+        }
+        textarea {
+            font-family: 'Bookman Old Style';
+            width:auto;
+            height: auto;
+        }
+        div select {
+            font-family: 'Bookman Old Style';
+        }
+        fieldset, input, select {
+            font-family: 'Bookman Old Style';
+            border: 2px solid #ffffff;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+        fieldset{
+            width:auto;
+            height:auto;
+        }
+        legend {
+            text-align: center;
+        }
+        #foot{
+            margin-left:60px;
+            width:250px;
+            height:30px;
+        }
+       #foot:hover{
+            border-color: #ff6a00;
+        }

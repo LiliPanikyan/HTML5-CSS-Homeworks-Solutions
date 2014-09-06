@@ -1,0 +1,68 @@
+﻿.page-container {
+            max-width: 900px;
+            margin: 0 auto;
+            font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+        } 
+        header h1{
+            margin-left:40px;
+        }
+        nav li {
+            list-style-type: none;
+            display: inline;
+            padding-right: 50px;
+            text-transform: uppercase;
+            font-size: 90%;
+            color: #8F8F8F;
+        }
+        #search {
+            float: right;
+            margin-right: 30px;
+            padding: 0;
+            
+        }
+        aside ul li {
+            list-style-type: none;
+            margin-top: 5px;
+            color: #605EA7;
+        }
+        .left {
+            float: left;
+            width: 20%;
+        }
+        section {
+            margin-left: 25px;
+            float: left;
+            width: 55%;
+        }
+        .aside-footer {
+            color: #558df3;
+        }
+        .right {
+            float: right;
+            width: 20%;
+            color: #8F8F8F;
+        }
+        .page-footer{
+       
+            width: 100%;
+           
+            float: left;
+            height: 200px;
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+        
+        }
+        .footer-part{
+            list-style-type:none;
+            margin:0px;
+            padding:0px;
+        }
+        .div-foot1, .div-foot2, .div-foot3, .div-foot4{
+            display: block;
+            float: left;
+            height: 180px;
+            width: 170px;
+            margin: 2px;
+            padding-right: 10px;
+        }

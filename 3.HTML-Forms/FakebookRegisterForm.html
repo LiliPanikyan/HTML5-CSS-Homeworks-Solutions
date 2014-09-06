@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Fekebook</title>
+
+    <link href="Fakebok.css" rel="stylesheet" />
+</head>
+<body>
+    <form method="get" action="#">
+        <div class="box">
+            <header>
+                <h1>fAKEBOOK<sub>&#174</sub></h1>
+                <h3>Registration</h3>
+                <h5>It is save and will always be!</h5>           
+            </header>
+            <div class="leftPart">
+                    <fieldset>                       
+                            <legend>None-Important Information</legend>
+                        <ul>
+                            <li>
+                                <input type="text" name="firstName" placeholder="First Name" pattern="[A-Za-z]+"/>
+                                <input type="text" name="lastName" placeholder="Last Name" pattern="[A-Za-z]+">
+                            </li>
+                            <li>
+                                <input type="email" name="mail" placeholder="Your Email" />
+                                <input type="tel" name="telNum" placeholder="Phone Number" />
+                            </li>
+                            <li>
+                                Birthday
+                            </li>
+                            <li>
+                                <input type="datetime-local" name="bdaytime">
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" /> Female
+                                <input type="radio" name="gender" /> Male
+                                <input type="radio" name="gender" /> Other
+                            </li>                           
+                        </ul>
+                        <br />
+                        <br />
+                    </fieldset>
+                    <p><input type="reset" name="foot" id="foot" value="Clear Form" /></p>              
+            </div>
+            <div class="rightPart">
+                <fieldset>
+                    <legend>Important Information *required</legend>
+                    <ul>
+                        <li>
+                            <select required="required">
+                                <option value="0">Coutry</option>
+                                <option value="1">Austria</option>
+                                <option value="2">Belgium</option>
+                                <option value="3">Bulgaria</option>
+                                <option value="4">Cyprus</option>
+                                <option value="5">Czech Republic</option>
+                                <option value="6">Denmark</option>
+                                <option value="7">Estonia</option>
+                                <option value="8">Finland</option>
+                                <option value="9">France </option>
+                                <option value="10">Germany</option>
+                            </select>
+                            <input type="text" name="village" placeholder="Village" pattern="[A-Za-z]+" required="required" />
+                            <input type="text" name="distr" placeholder="District" pattern="[A-Za-z]+" required="required" />
+                        </li>
+                        <li>
+                            <input type="text" name="str" placeholder="Street" required="required" />
+                            <input type="number" name="num" class="numsData" placeholder="Nr" required="required" />
+                            <input type="number" name="floor" class="numsData" placeholder="Floor" required="required" />
+                            <input type="number" name="ap" class="numsData" placeholder="Ap Nr" required="required" />
+                        </li>
+                        <li>
+                            Door Color
+                        </li>
+                        <li>
+                            <input type="color" name="favcolor" value="#FFC0CB" required="required">
+                            <input type="number" name="watMet" placeholder="Water Mater Nr" required="required" />
+                            <select required="required">
+                                <option value="0">Aunt Pantles Nr</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9 </option>
+                                <option value="10">10</option>
+                            </select>
+                        </li>
+                        <li>
+                            More personal information
+                        </li>
+                        <li>
+                            <textarea name="persinfo"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>               
+                    <p><input type="submit" name="foot" id="foot" value="Register" style="margin-left:120px;" /></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

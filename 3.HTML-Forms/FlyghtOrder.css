@@ -1,0 +1,85 @@
+﻿#box {
+    width: 570px;
+    height: 350px;
+    background-color: #FFC0CB;
+}
+
+div.child1, div.child2 {
+    width: 270px;
+    height: 250px;
+    display: table-cell;
+    position: relative;
+   
+    
+}
+header{
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px;
+    top:15px;
+}
+.triptype{
+    list-style-type:none;
+}
+
+ul.container {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;    
+    list-style-type: none;
+    position: relative;
+}
+
+#under12, #over12, #baby {
+    width: 40px;
+}
+
+ul.container li{
+    display: table-cell;
+    position: relative;
+}
+
+
+
+.fromCitys, .dates, .toCitys, .flyClass {
+    list-style-type: none;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+    
+    
+}
+#deparDay, #returnDay{
+    width:210px;
+}
+
+    
+
+ul.times li {
+    list-style-type: none;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;   
+}
+ul.flyClass select {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+    width: 215px;
+    top: 40px;
+}
+
+ul.flyClass input {
+    font-family: Arial;
+    text-align:center;
+    font-size: 14px;
+    width: 215px;
+    height:30px;
+    border-radius:6px;
+    margin-top:20px;
+
+}
+ul.flyClass input:hover{
+    background-color: #EEEEEE;
+}

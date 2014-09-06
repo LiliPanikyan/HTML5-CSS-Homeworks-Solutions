@@ -1,0 +1,14 @@
+﻿body{
+    background-color:#234465;
+    
+}
+input{
+    width:200px;
+    height:25px;
+    font-family:Tahoma;
+    font-size:18px;
+        
+}
+input:hover{
+    background-color:#FF9C00;
+}

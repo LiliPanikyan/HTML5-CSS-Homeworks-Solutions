@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple form</title>
+
+    <link href="SimpleForm.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="box" class="box">
+        <h3 style="color: #234465">Enter the system</h3>
+        <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        <div id="child1" class="child1">
+            <form method="get" action="#">
+                <fieldset>
+                    <legend>Are you new? REGISTER</legend>
+                    <input type="text" name="userid" id="userid" placeholder="User name" required="required" />
+                    <input type="email" name="userEmail" id="userEmail" placeholder="Email" required="required" />
+                    <input type="password" name="password" id="password" placeholder="Password" required="required" />
+                    <input type="password" name="passwordconf" id="passwordconf" placeholder="Confirm paswword" required="required" oninput="check(this)" />
+                   <input type="submit" name="submit" id="submit" placeholder="Register" />    
+                </fieldset>
+            </form>
+        </div>
+        <div id="child2" class="child2">
+            <form method="get" action="#">
+                <fieldset>
+                    <legend style="color:white;">Already a student? LOGIN</legend>
+                    <input type="text" name="userName" id="userName" placeholder="User name" required="required" />
+                    <input type="password" name="userPass" id="userPass" placeholder="Password" required="required" />
+                    <input type="checkbox" name="check" id="check" style=" margin-top: 24px;" />
+                    <label for="login" class="inline" style="color: white; margin-top: 24px;">Remembre me</label>
+                    <input type="submit" name="login" id="login" value="Login"/>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script language='javascript' type='text/javascript'>
+        function check(input) {
+            if (input.value != document.getElementById('password').value) {
+                input.setCustomValidity('The two passwords must match.');
+            } else {
+                // input is valid -- reset the error message
+                input.setCustomValidity('');
+            }
+        }
+    </script>
+
+</body>
+</html>

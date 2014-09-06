@@ -1,0 +1,1053 @@
+﻿body #wrapper {
+  width: 580px;
+  height: 600px;
+  position: relative;
+  left: 25%;
+  border: 2px solid #979695;
+  background-color: #d6fbf7; }
+  body #wrapper div.car-BMW-3 {
+    background-image: url("Images/bmw-3.jpg");
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 20px; }
+  body #wrapper div.car-G-class {
+    background-image: url(Images/g-class.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 200px;
+    top: 10px; }
+  body #wrapper div.car-C-class {
+    background-image: url(Images/c-class.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 390px;
+    top: 10px; }
+  body #wrapper div.car-AUDI-A5 {
+    background-image: url(Images/audi-a5.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 150px; }
+  body #wrapper div.car-AUDI-A4 {
+    background-image: url(Images/audi-a4.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 200px;
+    top: 150px; }
+  body #wrapper div.car-Chavrolet {
+    background-image: url(Images/chavrolet.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 390px;
+    top: 150px; }
+  body #wrapper div.car-Honda {
+    background-image: url(Images/honda.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 290px; }
+  body #wrapper div.car-Ford {
+    background-image: url(Images/ford.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 200px;
+    top: 290px; }
+  body #wrapper div.car-Porsche {
+    background-image: url(Images/porsche.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 390px;
+    top: 290px; }
+  body #wrapper div.car-Hamer {
+    background-image: url(Images/hamer.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 430px; }
+  body #wrapper div.car-BMW-X9 {
+    background-image: url(Images/bmw-x9.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 200px;
+    top: 430px; }
+  body #wrapper div.car-Lamborghini {
+    background-image: url(Images/lamborghini.jpg);
+    width: 158px;
+    height: 120px;
+    position: absolute;
+    left: 390px;
+    top: 430px; }
+
+.car-BMW-3:hover, .car-BMW-3:focus {
+  -webkit-animation: Move-BMW-3 5s both;
+  -moz-animation: Move-BMW-3 5s both;
+  -o-animation: Move-BMW-3 5s both;
+  animation: Move-BMW-3 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-BMW-3 {
+  0% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    top: 10px;
+    left: 20px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    top: 10px;
+    left: 20px; } }
+
+.car-G-class:hover, .car-G-class:focus {
+  -webkit-animation: Move-G-class 5s both;
+  -moz-animation: Move-G-class 5s both;
+  -o-animation: Move-G-class 5s both;
+  animation: Move-G-class 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-G-class {
+  0% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 200px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 200px;
+    top: 10px; } }
+
+.car-C-class:hover, .car-C-class:focus {
+  -webkit-animation: Move-C-class 5s both;
+  -moz-animation: Move-C-class 5s both;
+  -o-animation: Move-C-class 5s both;
+  animation: Move-C-class 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-C-class {
+  0% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 390px;
+    top: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 390px;
+    top: 10px; } }
+
+.car-AUDI-A5:hover, .car-AUDI-A5:focus {
+  -webkit-animation: Move-AUDI-A5 5s both;
+  -moz-animation: Move-AUDI-A5 5s both;
+  -o-animation: Move-AUDI-A5 5s both;
+  animation: Move-AUDI-A5 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-AUDI-A5 {
+  0% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 20px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 20px;
+    top: 150px; } }
+
+.car-AUDI-A4:hover, .car-AUDI-A4:focus {
+  -webkit-animation: Move-AUDI-A4 5s both;
+  -moz-animation: Move-AUDI-A4 5s both;
+  -o-animation: Move-AUDI-A4 5s both;
+  animation: Move-AUDI-A4 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-AUDI-A4 {
+  0% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 200px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 200px;
+    top: 150px; } }
+
+.car-Chavrolet:hover, .car-Chavrolet:focus {
+  -webkit-animation: Move-Chavrolet 5s both;
+  -moz-animation: Move-Chavrolet 5s both;
+  -o-animation: Move-Chavrolet 5s both;
+  animation: Move-Chavrolet 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Chavrolet {
+  0% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 390px;
+    top: 150px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 390px;
+    top: 150px; } }
+
+.car-Honda:hover, .car-Honda:focus {
+  -webkit-animation: Move-Honda 5s both;
+  -moz-animation: Move-Honda 5s both;
+  -o-animation: Move-Honda 5s both;
+  animation: Move-Honda 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Honda {
+  0% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 20px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 20px;
+    top: 290px; } }
+
+.car-Ford:hover, .car-Ford:focus {
+  -webkit-animation: Move-Ford 5s both;
+  -moz-animation: Move-Ford 5s both;
+  -o-animation: Move-Ford 5s both;
+  animation: Move-Ford 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Ford {
+  0% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 200px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 200px;
+    top: 290px; } }
+
+.car-Porsche:hover, .car-Porsche:focus {
+  -webkit-animation: Move-Porsche 5s both;
+  -moz-animation: Move-Porsche 5s both;
+  -o-animation: Move-Porsche 5s both;
+  animation: Move-Porsche 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Porsche {
+  0% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 390px;
+    top: 290px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 390px;
+    top: 290px; } }
+
+.car-Hamer:hover, .car-Hamer:focus {
+  -webkit-animation: Move-Hamer 5s both;
+  -moz-animation: Move-Hamer 5s both;
+  -o-animation: Move-Hamer 5s both;
+  animation: Move-Hamer 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Hamer {
+  0% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 20px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 20px;
+    top: 430px; } }
+
+.car-BMW-X9:hover, .car-BMW-X9:focus {
+  -webkit-animation: Move-BMW-X9 5s both;
+  -moz-animation: Move-BMW-X9 5s both;
+  -o-animation: Move-BMW-X9 5s both;
+  animation: Move-BMW-X9 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-BMW-X9 {
+  0% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 200px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 200px;
+    top: 430px; } }
+
+.car-Lamborghini:hover, .car-Lamborghini:focus {
+  -webkit-animation: Move-Lamborghini 5s both;
+  -moz-animation: Move-Lamborghini 5s both;
+  -o-animation: Move-Lamborghini 5s both;
+  animation: Move-Lamborghini 5s both;
+  z-index: 1000;
+  width: 250px;
+  height: 160px;
+  background-repeat: no-repeat; }
+
+@-webkit-keyframes Move-Lamborghini {
+  0% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  1% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  2% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  3% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  4% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
+
+  5% {
+    left: 390px;
+    top: 430px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg); }
+
+  50% {
+    left: 300px;
+    top: 290px;
+    width: 250px;
+    height: 160px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  100% {
+    left: 390px;
+    top: 430px; } }
+
+/*# sourceMappingURL=Task-2-CrazyShakyGallery.css.map */

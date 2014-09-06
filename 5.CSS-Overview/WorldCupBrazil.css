@@ -1,0 +1,139 @@
+﻿#page {
+    width: 1045px;
+    height: 420px;
+    background: #00923e;
+    padding-top: 20px;
+    font-family: Tahoma;
+}
+
+table {
+    background: white;
+    width: 1000px;
+    height: 405px;
+    margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+    table td {
+        border: 1px solid black;
+        font-size: 20px;
+    }
+
+.header {
+    background-color: #F8C711;
+}
+
+#brazil {
+    background-image: url("/image/brazil-flag.gif");
+    width: 32px;
+    height: 21px;
+    float: right;
+}
+
+#mexico {
+    background-image: url("/image/Flag_of_Mexico.png");
+    width: 32px;
+    height: 21px;
+    float: left;
+}
+
+#spain {
+    background-image: url("/image/Spain flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: right;
+}
+
+#nitherland {
+    background-image: url("/image/Nitherland flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: left;
+}
+
+#italy {
+    background-image: url("/image/italy flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: right;
+}
+
+#england {
+    background-image: url("/image/england flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: left;
+}
+
+#argentina {
+    background-image: url("/image/argentina flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: right;
+}
+
+#bosna {
+    background-image: url("/image/bosna flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: left;
+}
+
+#germany {
+    background-image: url("/image/germany flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: right;
+}
+
+#portugal {
+    background-image: url("/image/portugal flag.jpg");
+    width: 32px;
+    height: 21px;
+    float: left;
+}
+
+.team1 {
+    text-align: right;
+}
+
+.team2 {
+    text-align: left;
+}
+
+table input {
+    width: 33px;
+    background-color: #C8C8C8;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #808080;
+}
+
+.disable {
+    color: red;
+}
+
+.enable {
+    color: green;
+}
+
+.even {
+    background-color: #C8C8C8;
+}
+
+table .buttonF {
+    visibility: inherit;
+    background-color: #C8C8C8;
+    border: none;
+}
+
+table .buttonE {
+    visibility: inherit;
+    background-color: white;
+    border: none;
+}

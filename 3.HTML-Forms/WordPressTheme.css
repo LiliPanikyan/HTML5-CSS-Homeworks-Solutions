@@ -1,0 +1,33 @@
+﻿.box{
+            width:400px;
+            height:200px;
+        }
+        .fillbox {
+            list-style-type: none;
+        }
+
+        .fillbox li {
+            margin-top: 10px;
+        }
+        #searchform {
+            width: 25px;
+            height: 30px; 
+        }
+        #text, #searchform {
+            display: table-cell;
+            
+        }
+        #searchBox {
+            
+            border: 1px solid #606060;
+            
+            font-size: 13px;
+            margin: 6px;
+            padding: 5px 25px 5px 4px;
+            width: 120px;
+        }
+
+        #searchButton {
+            position: absolute;
+            margin: 0 0 0 0;
+        }

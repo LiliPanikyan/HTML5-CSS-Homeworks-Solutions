@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Order</title>
+
+    <link href="FlyghtOrder.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="box" class="box">
+        <header>
+            <h3>FLIGHT ORDER</h3>
+        </header>
+        <div id="child1" class="child1">
+            <form method="get" action="#">
+                <ul class="fromCitys">
+                    <li>From</li>
+                    <li>
+                        <select style="width:215px;" required="required">
+                            <option value="01">Enter city</option>
+                            <option value="Value 1">Aberdeen /ABZ/</option>
+                            <option value="Value 2">Alicante /ALC/</option>
+                            <option value="Value 3">Amsterdam /AMS/</option>
+                            <option value="Value 4">Ankara /ESB/</option>
+                            <option value="Value 5">Antalya /AYT/</option>
+                            <option value="Value 6">Athens /ATH/</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="dates">
+                    <li>
+                        <label for="deparDay" id="dateInfo">Departure Date</label>
+                    </li>
+                    <li>
+                        <input type="date" name="deparDay" id="deparDay" required="required">
+                    </li>
+
+                    <li>
+                        <label for="returnDay" id="dateInfo">Return Date</label>
+                    </li>
+                    <li>
+                        <input type="date" name="returnDay" id="returnDay">
+                    </li>
+                </ul>
+                <ul class="container">
+                    <li>
+                        <span>12+</span>
+                        <select>
+                            <option value="0">0</option>
+                            <option selected="selected" value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10/more</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>2 - 12 y.</span>
+                        <select>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>0-2y</span>
+                        <select>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div id="child2" class="child2">
+            <form method="get" action="#">
+                <ul class="toCitys">
+                    <li>To</li>
+                    <li>
+                        <select style="width: 215px">
+                            <option value="Value 01">Enter city</option>
+                            <option value="Value 1">Basel /BSL/</option>
+                            <option value="Value 2">Barcelona /BCN/</option>
+                            <option value="Value 3">Belfast /BFS/</option>
+                            <option value="Value 4">Bergamo /BGY/</option>
+                            <option value="Value 5">Bergen /BGO/</option>
+                            <option value="Value 6">Berlin /TXL/</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="times">
+                    <li>
+                        Time Interval
+                    </li>
+                    <li>
+                        <input type="time" name="startDep" id="startDep" />
+                        <input type="time" name="endDep" id="endDep" />
+                    </li>
+                    <li>
+                        <label for="startRET" id="timeInfo">Time Interval</label>
+                    </li>
+                    <li>
+                        <input type="time" name="startRET" id="startRET" />
+                        <input type="time" name="endRet" id="endRet" />
+                    </li>
+                </ul>
+                <ul class="flyClass">
+                    <li>Choose class</li>
+                    <li>
+                        <select>
+                            <option value="Value 1">Economy</option>
+                            <option value="Value 2">Business</option>
+                            <option value="Value 3">First</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="submit" name="search" id="search" value="Search" />
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

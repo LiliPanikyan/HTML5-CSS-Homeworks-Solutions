@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Styling a HTML Form</title>
+    <link href="StylingHTMLForm.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div id="personaldata">
+            <h3>Step 1: Your details</h3>
+            <div class="namebox">
+                <span>Name</span><input type="text" id="txtName" placeholder="First nad last name" />
+            </div>
+            <div class="mailbox">
+                <span>Email</span><input type="email" placeholder="example@domain.com" />
+            </div>
+            <div class="phonebox">
+                <span>Phone</span><input type="tel" placeholder="eg. 447500000000" />
+            </div>
+        </div>
+        <div id="addressdata">
+            <h3>Step 1: Delivery details</h3>
+            <div class="addressbox">
+                <span>Address</span><textarea rows="4"></textarea>
+            </div>
+            <div class="postcodebox">
+                <span>Post code</span><input type="number" />
+            </div>
+            <div class="countrybox">
+                <span>Country</span><input type="text" />
+            </div>
+        </div>
+        <div id="carddata">
+            <h3>Step 1: Card details</h3>
+            <div class="cardtypebox">
+                <span>Card type</span>
+                <form action="">
+                    <ul>
+                        <li><input type="radio" name="typeCard" value="visa"><img src="/resources/visa.png" /> Visa</li>
+                        <li><input type="radio" name="typeCard" value="amex"><img src="/resources/amex.png" /> AmEx</li>
+                        <li><input type="radio" name="typeCard" value="MasterCard"><img src="/resources/master.png" /> MasterCard</li>
+                    </ul>
+                </form>
+            </div>
+            <div class="cardnumberbox">
+                <span>Card number</span><input type="number" />
+            </div>
+            <div class="securitybox">
+                <span>Security code</span><input type="password" />
+            </div>
+            <div class="cardnamebox">
+                <span>Name on card</span><input type="text" placeholder="exact name as on the card" />
+            </div>
+            <button type="button">BUY IT!</button>
+        </div>
+
+    </div>
+</body>
+</html>

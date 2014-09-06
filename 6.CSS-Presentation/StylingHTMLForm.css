@@ -1,0 +1,206 @@
+﻿
+
+.container {
+    width: 420px;
+    height: 600px;
+    background-image: url('/resources/formBackground.jpg');
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+#txtName {
+    background-color: white !important;
+    z-index: 1000;
+    text-decoration: none !important;
+}
+
+h3 {
+    color: white;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+#personaldata {
+    width: 420px;
+    height: 160px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+.namebox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    border: 1px solid #C1CCDB;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -10px;
+    border-radius: 4px;
+}
+
+span {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"] {
+    width: 220px;
+    height: 15px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+
+textarea {
+    width: 220px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+
+.mailbox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.phonebox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+#addressdata {
+    width: 420px;
+    height: 220px;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.addressbox {
+    width: 380px;
+    height: 90px;
+    background-color: #7390B0;
+    border: 1px solid #C1CCDB;
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.postcodebox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 85px;
+}
+
+.countrybox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    border: 1px solid #C1CCDB;
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+#carddata {
+    width: 420px;
+    height: 220px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+    #carddata form {
+        position: absolute;
+        margin-top: 10px;
+    }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.cardtypebox {
+    width: 380px;
+    height: 60px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.cardnumberbox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 55px;
+}
+
+.securitybox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #C1CCDB;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.cardnamebox {
+    width: 380px;
+    height: 30px;
+    background-color: #7390B0;
+    border: 1px solid #C1CCDB;
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 125px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #04152F;
+    border-color: #04152F;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 150px;
+    color: white;
+}

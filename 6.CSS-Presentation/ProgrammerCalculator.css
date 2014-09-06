@@ -1,0 +1,204 @@
+﻿.conteiner {
+    width: 421px;
+    height: 386px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #BAD2EA;
+    border-left: 4px solid #BAD2EA;
+    border-right: 4px solid #BAD2EA;
+    border-top: none;
+    border-radius:4px;
+}
+
+.topHeader {
+    width: 413px;
+    height: 25px;
+    background: #A1BBD7;
+}
+
+.firstHeader {
+    font-size: 14px;
+}
+
+.butt {
+    font-size: 6px;
+    position: absolute;
+}
+
+.topRight {
+    width: 150px;
+    height: 25px;
+    float: right;
+    margin-top: 5px;
+}
+
+#minimaze, #maximaze, #close {
+    width: 23px;
+    height: 15px;
+    display: inline-block;
+    background: #BFD3E7;
+    padding-left: 5px;
+    margin-left: 15px;
+    
+}
+
+#minButton {
+    position: absolute;
+    margin-top: 4px;
+}
+
+#square {
+    width: 8px;
+    height: 6px;
+    position: absolute;
+    margin: 2px;
+    border: 3px solid #8E9CAD;
+}
+
+#closeButton {
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    margin-left: -4px;
+    padding: 0px;
+    background: #ff0000;
+    
+}
+
+.secondHeader {
+    width: 411px;
+    height: 17px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    background: linear-gradient(white, #D9DFF0);
+    position: absolute;
+}
+
+.second {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.main {
+    width: 413px;
+    height: 339px;
+    position: absolute;
+    margin-top: 19px;
+    background: linear-gradient(#E1EBF6 10%, white 85%, #E1EBF6 90%);
+    
+    
+}
+
+#display {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+    background: linear-gradient(#D9DFF0, white);
+    
+}
+
+.zero {
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+    color:#1F59A9;
+}
+
+#binary {
+    width: 380px;
+    height: 70px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 14px;
+    color:#1F59A9;
+}
+.bitzaroes1, .bitzaroes2{
+    width:165px;
+    height:12px;
+    display:inline-block;
+    font-size:11px;
+    margin-left:15px;
+    
+}
+.leftDigit{
+    width:165px;
+    height:12px;
+    font-size:11px;
+    
+    margin-left:15px;
+}
+.midleDigit{
+    width:95px;
+    height:12px;
+    font-size:11px;
+    
+    margin-left:15px;
+}
+.rightDigit{
+    width:50px;
+    height:12px;
+    font-size:11px;
+    
+    text-align:right;
+}
+.leftDigit, .midleDigit, .rightDigit{
+    display:inline-block;
+}
+.aside1 {
+    width: 70px;
+    height: 90px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    position: absolute;
+    margin-top: 135px;
+    font-size: 12px;
+    margin-left: 10px;
+    color:#1F59A9;
+    
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.aside2 {
+    width: 70px;
+    height: 90px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    position: absolute;
+    margin-top: 235px;
+    font-size: 12px;
+    margin-left: 10px;
+    color:#1F59A9;
+    
+}
+
+.tablePart {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 85px;
+}
+
+table td {
+    width: 32px;
+    height: 26px;
+    border: 1px solid #8E9CAD;
+    border-radius:2px;
+    text-align: center;
+    color:#1F59A9;
+    box-shadow:inset 0 0 8px silver;
+}
+td:hover{
+    background-color:silver;
+}
+

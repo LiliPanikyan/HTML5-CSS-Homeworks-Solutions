@@ -1,0 +1,60 @@
+﻿#box {
+    width: 480px;
+    height: 400px;
+    background-color: #EEEEEE;
+}
+
+div.child1, div.child2 {
+    width: 220px;
+    height: 250px;
+    display: table-cell;
+    position: relative;
+}
+
+div.child2 {
+    background-color: #234465;
+    padding-right: 5px;
+}
+
+div.child1 {
+    padding-left: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+.box, .child2 {
+    border: 2px solid #234465;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+h3, p {
+    margin-left: 5px;
+}
+
+#userEmail, #password, #passwordconf, #userPass {
+    width: 99%;
+    height: 20px;
+    margin-top: 24px;
+}
+
+#submit {
+    float: right;
+    border-color: orange;
+    margin-top: 24px;
+    width: 50%;
+}
+
+#userid, #userName {
+    width: 99%;
+    height: 20px;
+}
+
+#login {
+    border-color: orange;
+    width: 35%;
+    margin-top: 24px;
+}
